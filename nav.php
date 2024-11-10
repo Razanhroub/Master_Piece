@@ -29,11 +29,23 @@
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .navbar-brand .logo {
-      height: 40px;
-      /* Adjust the logo size */
-      width: auto;
-      /* Maintains the aspect ratio */
+
+    .navbar-brand {
+      display: flex;
+      align-items: baseline;
+      /* Aligns the bottom of the image with the text */
+    }
+
+    .navbar-brand img {
+      height: 30px;
+      /* Adjust the height as needed */
+      margin-right: 10px;
+      /* Space between the image and the text */
+    }
+
+    .navbar-brand span {
+      font-size: 1.5rem;
+      /* Adjust the font size as needed */
     }
   </style>
 </head>
@@ -43,8 +55,10 @@
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.php">
-        <img src="images/logo.png" alt="YumHub Logo" class="logo">
+        <img src="./images/logo_icon.png" alt="icon">
+        <span>YumHub</span>
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -52,10 +66,10 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
           <li class="nav-item"><a href="menu.php" class="nav-link">Menu</a></li>
           <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="about.php" class="nav-link">About us </a></li>
           <li class="nav-item cta"><a href="reservation.php" class="nav-link">Book a table</a></li>
         </ul>
       </div>

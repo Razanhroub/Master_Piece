@@ -52,13 +52,13 @@ include("nav.php");
 				<div class="row justify-content-center">
 					<div class="col-sm-10 wrap-about ftco-animate text-center">
 	          <div class="heading-section mb-4 text-center">
-	          	<span class="subheading">About</span>
-	            <h2 class="mb-4">Appetizer Restaurant</h2>
+	          	<span class="subheading">About us</span>
+	            <h2 class="mb-4">YumHub</h2>
 	          </div>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+						<p>“An inspiring community for passionate food lovers to dive into diverse flavors, uncover hidden culinary gems, and share cherished recipes from every corner of the globe—where every dish tells a story and every cook becomes a part of something deliciously bigger.”</p>
 
 						<div class="video justify-content-center">
-							<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+							<a href="https://www.youtube.com/watch?v=nf4R6XHCU4Q" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
   							<span class="ion-ios-play"></span>
 	  					</a>
 						</div>
